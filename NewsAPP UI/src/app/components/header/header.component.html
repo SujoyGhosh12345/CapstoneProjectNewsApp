@@ -1,0 +1,31 @@
+<div class="navbar" >
+  <div class="logo">
+    <img src="assets/Newsapp.png" alt="">
+    <h1>NEWS WORLD</h1>
+  </div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a routerLink="/login"><button mat-button color="primary" >Log In</button></a></li>
+    <li><a routerLink="/signup"><button mat-button color="primary" >Register</button></a></li>
+
+
+    <!-- Display these options when the user is logged out -->
+    <!-- <li *ngIf="!authService.isLoggedIn"><a routerLink="/login">Login</a></li>
+    <li *ngIf="!authService.isLoggedIn"><a routerLink="/signup">Sign Up</a></li>
+    <li *ngIf="!authService.isLoggedIn"><a routerLink="/home">Home</a></li> -->
+
+    <!-- Display these options when the user is logged in -->
+    <!-- <li *ngIf="authService.isLoggedIn">Welcome {{ authService.getFullNameFromToken() }}</li> -->
+    <!-- <li *ngIf="authService.isLoggedIn">Welcome {{username}}</li>
+    <li *ngIf="authService.isLoggedIn"><a routerLink="/dashboard">Dashboard</a></li>
+    <li *ngIf="authService.isLoggedIn"><a routerLink="/Favourites">Favorites</a></li>
+    <li *ngIf="authService.isLoggedIn"><a routerLink="/Recomendation">Recommendation</a></li>
+    <li *ngIf="authService.isLoggedIn"><a (click)="logout()">Log Out</a></li>
+    <li *ngIf="authService.isLoggedIn"><a routerLink="/login">Login</a></li>
+    <li *ngIf="authService.isLoggedIn"><a routerLink="/signup">Sign Up</a></li> -->
+
+
+
+  </ul>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="navbar" >
+    <div class="logo">
+      <img src="assets/Newsapp.png" alt="">
+      <h1 class="title1">NEWS WORLD</h1>
+    </div>
+    <ul>
+      <li class="hello"><h3 style="color: yellow;"> Hi {{username}}</h3></li>
+      <li><a routerLink="/dashboard">  <button mat-button color="primary" >Dashboard</button></a></li>
+      <li><a routerLink="/Favourites"><button mat-button color="primary" >Favourites</button></a></li>
+      <li><a routerLink="/Recomendation"><button mat-button color="primary" >Recomendation</button></a></li>
+      <li><a (click)="logout()"><button mat-button color="red" >LogOut</button></a></li>
+    </ul>
+  </div>
